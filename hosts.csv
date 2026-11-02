@@ -1,0 +1,11 @@
+name,host,port
+# Public services (HTTPS / DNS)
+Google DNS,8.8.8.8,53
+Cloudflare DNS,1.1.1.1,53
+GitHub HTTPS,github.com,443
+Debian HTTPS,www.debian.org,443
+# Local machine - change or add hosts you own
+Localhost SSH,127.0.0.1,22
+# Industrial protocols (only test devices you are allowed to test)
+# PLC Modbus TCP,192.168.0.10,502
+# OPC UA server,192.168.0.20,4840
